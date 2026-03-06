@@ -33,9 +33,9 @@ export const services: ServiceData[] = [
     title: "Handyman Services in Dubai",
     shortTitle: "Handyman",
     icon: Wrench,
-    metaTitle: "Handyman Services in Dubai - Master Technicals",
+    metaTitle: "Handyman Services Dubai | Emergency Handyman & Home Repair",
     metaDescription:
-      "Professional handyman services in Dubai. From furniture assembly to wall mounting, painting, and general repairs. 24/7 emergency service. Call +971556557200.",
+      "Professional handyman services in Dubai. Emergency handyman available 24/7 for furniture assembly, wall mounting, painting, and general repairs. Call +971556557200.",
     heroHeadline: "Expert Handyman Services in Dubai",
     heroSubheadline:
       "From minor fixes to major repairs, our skilled handymen handle every task with precision and care across all areas of Dubai.",
@@ -74,9 +74,9 @@ export const services: ServiceData[] = [
     title: "Plumbing Services in Dubai",
     shortTitle: "Plumbing",
     icon: Droplets,
-    metaTitle: "Plumbing Services in Dubai - Master Technicals",
+    metaTitle: "Plumbing Services Dubai | Professional Licensed Plumbers",
     metaDescription:
-      "Licensed plumbing services in Dubai. Leak repairs, drain cleaning, pipe installation, bathroom fitting. Emergency plumber available 24/7. Call +971556557200.",
+      "Best plumbing services in Dubai. Emergency plumbers available 24/7 for leak repairs, drain cleaning, and pipe installation. Licensed & insured. Call +971556557200.",
     heroHeadline: "Professional Plumbing Services in Dubai",
     heroSubheadline:
       "Licensed plumbers delivering reliable solutions for all your residential and commercial plumbing needs across Dubai.",
@@ -115,9 +115,9 @@ export const services: ServiceData[] = [
     title: "Electrical Services in Dubai",
     shortTitle: "Electrical",
     icon: Zap,
-    metaTitle: "Electrical Services in Dubai - Master Technicals",
+    metaTitle: "Electrician Dubai | Licensed Electrical Repair & Installation",
     metaDescription:
-      "Licensed electricians in Dubai for wiring, socket installation, lighting, circuit breakers & more. Emergency electrical service 24/7. Call +971556557200.",
+      "Professional electrician in Dubai. Licensed electrical services for wiring, socket installation, and lighting repairs. 24/7 emergency service. Call +971556557200.",
     heroHeadline: "Licensed Electrical Services in Dubai",
     heroSubheadline:
       "Certified electricians providing safe and reliable electrical installations, repairs, and maintenance across all Dubai areas.",

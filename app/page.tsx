@@ -38,13 +38,12 @@ function HeroSection() {
             Trusted Home Maintenance in Dubai
           </span>
           <h1 className="mb-6 text-4xl font-bold leading-tight text-balance md:text-5xl lg:text-6xl">
-            Professional Home Maintenance Services in Dubai &ndash; 24/7
-            Emergency Repairs
+            Handyman Services Dubai &ndash; Home Maintenance & Repair Experts
           </h1>
           <p className="mb-8 text-lg leading-relaxed text-background/70 md:text-xl">
-            From plumbing and electrical to AC repair and CCTV installation,
-            Master Technicals delivers expert handyman services across all
-            areas of Dubai. Licensed, insured, and always on time.
+            Professional handyman services in Dubai. From plumbing and electrical to AC repair and CCTV installation,
+            Master Technicals delivers expert home maintenance across all
+            areas of Dubai. Licensed, insured, and same-day service.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Button
@@ -408,7 +407,7 @@ export default function HomePage() {
     name: "Master Technicals",
     image: "https://mastertechnicals.ae/images/hero-bg.jpg",
     description:
-      "Professional home maintenance services in Dubai. 24/7 emergency repairs, plumbing, electrical, AC repair, CCTV installation and more.",
+      "Professional handyman services in Dubai. Plumbing, electrical, carpentry, AC repair and home maintenance with same-day service. Call now.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Office No.14 X19 England Cluster, International City",

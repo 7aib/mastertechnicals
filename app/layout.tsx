@@ -15,24 +15,23 @@ const _jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default:
-      "Master Technicals - Professional Home Maintenance Services in Dubai",
+    default: "Handyman Services Dubai | Home Maintenance & Repair Experts",
     template: "%s | Master Technicals Dubai",
   },
   description:
-    "Master Technicals offers 24/7 professional home maintenance, handyman, plumbing, electrical, AC repair, CCTV installation and more across Dubai. Call +971556557200 for a free quote.",
+    "Professional handyman services in Dubai. Plumbing, electrical, carpentry, AC repair and home maintenance with same-day service. Call now.",
   keywords: [
-    "home maintenance services in Dubai",
-    "handyman services in Dubai",
-    "property maintenance Dubai",
-    "emergency handyman Dubai",
+    "Handyman Services Dubai",
+    "Home Maintenance Dubai",
+    "Emergency Handyman Dubai",
+    "Property Maintenance Dubai",
+    "Electrician Dubai",
+    "Plumbing Services Dubai",
     "AC repair Dubai",
-    "plumbing services Dubai",
-    "electrical services Dubai",
-    "water heater repair Dubai",
+    "Water heater repair Dubai",
     "CCTV installation Dubai",
-    "satellite installation Dubai",
-    "networking solutions Dubai",
+    "Painting services Dubai",
+    "Carpentry services Dubai",
   ],
   authors: [{ name: "Master Technicals" }],
   creator: "Master Technicals",
@@ -41,17 +40,15 @@ export const metadata: Metadata = {
     locale: "en_AE",
     url: "https://mastertechnicals.ae",
     siteName: "Master Technicals",
-    title:
-      "Master Technicals - Professional Home Maintenance Services in Dubai",
+    title: "Handyman Services Dubai | Home Maintenance & Repair Experts",
     description:
-      "24/7 professional home maintenance, handyman, plumbing, electrical, AC repair and more across Dubai. Licensed & insured technicians.",
+      "Professional handyman services in Dubai. Plumbing, electrical, carpentry, AC repair and home maintenance with same-day service. Call now.",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Master Technicals - Professional Home Maintenance Services in Dubai",
+    title: "Handyman Services Dubai | Home Maintenance & Repair Experts",
     description:
-      "24/7 professional home maintenance, handyman, plumbing, electrical, AC repair and more across Dubai.",
+      "Professional handyman services in Dubai. Plumbing, electrical, carpentry, AC repair and home maintenance with same-day service. Call now.",
   },
   robots: {
     index: true,

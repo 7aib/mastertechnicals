@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { services } from "@/lib/services-data"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://mastertechnicals.com/"
+  const baseUrl = "https://mastertechnicals.com"
 
   const servicePages = services.map((service) => ({
     url: `${baseUrl}/services/${service.slug}`,
