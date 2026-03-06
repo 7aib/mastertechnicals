@@ -10,6 +10,8 @@ import {
   Wifi,
   WashingMachine,
   Phone,
+  Home,
+  DoorOpen,
   type LucideIcon,
 } from "lucide-react"
 
@@ -29,7 +31,48 @@ export interface ServiceData {
 
 export const services: ServiceData[] = [
   {
-    slug: "handyman-services",
+    slug: "home-maintenance-dubai",
+    title: "Home Maintenance Services in Dubai",
+    shortTitle: "Home Maintenance",
+    icon: Home,
+    metaTitle: "Home Maintenance Dubai | Professional Property Care Services",
+    metaDescription:
+      "Full-service home maintenance in Dubai. Professional property care, annual maintenance contracts, and 24/7 reactive repairs for villas and apartments. Call now.",
+    heroHeadline: "Professional Home Maintenance Dubai",
+    heroSubheadline:
+      "Comprehensive property maintenance solutions for homeowners and businesses across all areas of Dubai. 24/7 support and expert care.",
+    description:
+      "Master Technicals provides premium home maintenance services across Dubai. We specialize in providing both reactive repairs and planned preventive maintenance for residential and commercial properties. Our expert team handles everything from minor fixes to complete property renovations. Whether you live in a villa in Arabian Ranches or an apartment in Dubai Marina, our professional technicians are ready to serve you. We offer flexible Annual Maintenance Contracts (AMCs) that provide peace of mind and ensure your property stays in top condition year-round. Our home maintenance services cover all aspects including plumbing, electrical, AC, and general handyman work.",
+    features: [
+      "Annual Maintenance Contracts (AMC)",
+      "Planned Preventive Maintenance",
+      "Reactive 24/7 repair services",
+      "Villa & apartment maintenance",
+      "Commercial property care",
+      "Renovation & painting",
+      "Property condition assessments",
+      "Emergency call-out services",
+    ],
+    faqs: [
+      {
+        question: "What is included in a home maintenance contract?",
+        answer:
+          "Our standard AMCs include regular AC servicing, plumbing inspections, electrical checks, and a set number of emergency call-outs. We can also customize contracts based on your specific needs.",
+      },
+      {
+        question: "Do you serve all areas of Dubai?",
+        answer:
+          "Yes, we provide home maintenance services across all major areas of Dubai including Downtown, Marina, Business Bay, The Palm, and suburban villa communities.",
+      },
+      {
+        question: "Is emergency service available?",
+        answer:
+          "Yes, we provide 24/7 emergency response for burst pipes, electrical failures, and AC breakdowns for all our maintenance clients.",
+      },
+    ],
+  },
+  {
+    slug: "handyman-services-dubai",
     title: "Handyman Services in Dubai",
     shortTitle: "Handyman",
     icon: Wrench,
@@ -70,7 +113,7 @@ export const services: ServiceData[] = [
     ],
   },
   {
-    slug: "plumbing-services",
+    slug: "plumbing-services-dubai",
     title: "Plumbing Services in Dubai",
     shortTitle: "Plumbing",
     icon: Droplets,
@@ -111,7 +154,7 @@ export const services: ServiceData[] = [
     ],
   },
   {
-    slug: "electrical-services",
+    slug: "electrician-services-dubai",
     title: "Electrical Services in Dubai",
     shortTitle: "Electrical",
     icon: Zap,
@@ -152,11 +195,11 @@ export const services: ServiceData[] = [
     ],
   },
   {
-    slug: "ac-maintenance-repair",
+    slug: "ac-repair-dubai",
     title: "AC Maintenance & Repair in Dubai",
     shortTitle: "AC Repair",
     icon: Wind,
-    metaTitle: "AC Maintenance & Repair in Dubai - Master Technicals",
+    metaTitle: "AC Repair Dubai | Expert AC Maintenance & Service",
     metaDescription:
       "Expert AC maintenance, repair & installation in Dubai. All brands serviced. Emergency AC repair available 24/7. Call +971556557200 for a free quote.",
     heroHeadline: "Expert AC Maintenance & Repair in Dubai",
@@ -189,6 +232,129 @@ export const services: ServiceData[] = [
         question: "Do you offer AC maintenance contracts in Dubai?",
         answer:
           "Yes, we offer annual maintenance contracts (AMCs) that include regular inspections, cleaning, gas top-ups, and priority emergency service at discounted rates.",
+      },
+    ],
+  },
+  {
+    slug: "tv-mounting-dubai",
+    title: "TV Mounting & Satellite Installation in Dubai",
+    shortTitle: "TV Mounting",
+    icon: Satellite,
+    metaTitle: "TV Mounting Dubai | Professional TV Wall Mounting & Setup",
+    metaDescription:
+      "Professional TV wall mounting services in Dubai. Expert satellite dish installation, TV setup, and cable management. Call +971556557200 for same-day service.",
+    heroHeadline: "TV Mounting & Satellite Installation in Dubai",
+    heroSubheadline:
+      "Professional TV wall mounting and satellite dish services for the perfect home entertainment setup across Dubai.",
+    description:
+      "Master Technicals provides expert TV mounting and satellite installation services across Dubai. We specialize in secure wall mounting for TVs of all sizes, from 32-inch screens to large 85-inch home theater displays. Our team ensure clean cable management, concealing wires for a sleek and professional look. We also handle satellite dish installation, alignment, and signal troubleshooting for all major satellite systems. Whether you need a new TV setup or your existing receiver programmed, our technicians deliver high-quality results. We serve residential villas and apartments, providing the best viewing experience for your home.",
+    features: [
+      "Professional TV wall mounting",
+      "Satellite dish installation & alignment",
+      "Concealed cable management",
+      "IPTV & receiver programming",
+      "Home theater system setup",
+      "Multi-room TV distribution",
+      "LNB replacement & signal fix",
+      "Same-day mounting available",
+    ],
+    faqs: [
+      {
+        question: "Do you provide TV wall brackets?",
+        answer:
+          "Yes, we can provide high-quality fixed, tilting, or full-motion wall brackets for all TV sizes, or we can install a bracket you have already purchased.",
+      },
+      {
+        question: "Can you hide the TV cables?",
+        answer:
+          "Absolutely. We specialize in concealed cable management, either through the wall (if suitable) or using professional trunking to ensure a clean look.",
+      },
+      {
+        question: "Which satellite systems do you work with?",
+        answer:
+          "We work with all major satellite systems including Nilesat, Arabsat, Hotbird, and others, providing dish alignment and receiver setup.",
+      },
+    ],
+  },
+  {
+    slug: "door-repair-dubai",
+    title: "Door Repair & Lock Installation in Dubai",
+    shortTitle: "Door Repair",
+    icon: DoorOpen,
+    metaTitle: "Door Repair Dubai | Locksmith & Door Maintenance Services",
+    metaDescription:
+      "Expert door repair and lock installation services in Dubai. Fixing sagging doors, lock replacements, and frame repairs. Call +971556557200 for fast service.",
+    heroHeadline: "Door Repair & Lock Installation in Dubai",
+    heroSubheadline:
+      "Specialized door maintenance and locksmith services for homes and offices across Dubai. Secure and reliable repairs.",
+    description:
+      "Master Technicals offers professional door repair and maintenance services throughout Dubai. Doors are essential for security and aesthetics, and our team is expert at fixing common issues like sagging hinges, misaligned frames, and sticking locks. We work with all types of doors including wooden, aluminum, and glass doors. Our emergency locksmith services handle lockouts and lock replacements quickly and efficiently. Whether it's a sliding patio door or a heavy entry door, we have the tools and expertise to ensure it opens and closes perfectly. We also install new handles, hinges, and security locks to enhance your property's safety.",
+    features: [
+      "Sagging & misaligned door repair",
+      "Lock installation & replacement",
+      "Door frame repair & reinforcement",
+      "Hinge replacement & lubrication",
+      "Sliding door track repair",
+      "Handle & hardware replacement",
+      "Glass door maintenance",
+      "Emergency door opening",
+    ],
+    faqs: [
+      {
+        question: "Why is my door sticking or sagging?",
+        answer:
+          "This is usually caused by loose hinges, humidity effects on wood, or slight house settling. Our technicians can realign the door and reinforce the hinges to fix it.",
+      },
+      {
+        question: "Do you provide emergency lock replacement?",
+        answer:
+          "Yes, we offer 24/7 emergency locksmith services for lockouts and urgent lock changes across Dubai.",
+      },
+      {
+        question: "Can you repair aluminum sliding doors?",
+        answer:
+          "Yes, we specialize in repairing sliding door tracks, rollers, and locks for balcony and patio doors.",
+      },
+    ],
+  },
+  {
+    slug: "water-tank-cleaning-dubai",
+    title: "Water Tank Cleaning & Sanitization in Dubai",
+    shortTitle: "Water Tank Cleaning",
+    icon: Waves,
+    metaTitle: "Water Tank Cleaning Dubai | Certified Sanitization Services",
+    metaDescription:
+      "Professional water tank cleaning and sanitization in Dubai. Ensure clean, safe water for your family. Dubai Municipality approved methods. Call +971556557200.",
+    heroHeadline: "Water Tank Cleaning & Sanitization in Dubai",
+    heroSubheadline:
+      "Ensure the health and safety of your family with professional water tank cleaning services across all Dubai areas.",
+    description:
+      "Master Technicals provides certified water tank cleaning services in Dubai. Over time, water tanks can accumulate sediment, algae, and bacteria, making them unsafe for domestic use. Our team uses Dubai Municipality-approved cleaning methods and eco-friendly disinfectants to thoroughly sanitize your tank. We handle both underground and roof-level tanks, providing a complete cleaning report upon completion. Regular water tank cleaning (recommended every 6 months) ensures that the water you use for bathing and washing is free from contaminants. We served hundreds of villas and apartments, maintaining the highest hygiene standards.",
+    features: [
+      "Complete tank drainage & scrubbing",
+      "Sediment & algae removal",
+      "Certified sanitization methods",
+      "Eco-friendly disinfectants",
+      "Pipeline disinfection",
+      "Water pump inspection",
+      "Float valve maintenance",
+      "Villa & building tank cleaning",
+    ],
+    faqs: [
+      {
+        question: "How often should I clean my water tank in Dubai?",
+        answer:
+          "We recommend professional cleaning and sanitization every 6 months to prevent bacteria buildup and ensure water quality.",
+      },
+      {
+        question: "How long does the cleaning process take?",
+        answer:
+          "A standard villa tank typically takes 2-4 hours to clean. We aim to minimize water disruption during the process.",
+      },
+      {
+        question: "Do you use chemicals for cleaning?",
+        answer:
+          "We use only approved, food-safe sanitizing agents that are effective against bacteria but safe for human use once the tank is refilled.",
       },
     ],
   },
@@ -312,47 +478,6 @@ export const services: ServiceData[] = [
         question: "What is the best CCTV brand for Dubai?",
         answer:
           "We recommend Hikvision, Dahua, and CP Plus for their reliability in Dubai's climate. We help you choose the best option based on your budget and requirements.",
-      },
-    ],
-  },
-  {
-    slug: "satellite-tv-installation",
-    title: "Satellite & TV Installation in Dubai",
-    shortTitle: "Satellite & TV",
-    icon: Satellite,
-    metaTitle: "Satellite & TV Installation in Dubai - Master Technicals",
-    metaDescription:
-      "Expert satellite dish & TV installation in Dubai. Setup, alignment, and repair services. HD channels and IPTV. Call +971556557200.",
-    heroHeadline: "Satellite & TV Installation in Dubai",
-    heroSubheadline:
-      "Professional satellite dish installation, TV mounting, and channel setup for crystal-clear entertainment in your home.",
-    description:
-      "Master Technicals provides expert satellite and TV installation services across Dubai. Whether you need a new satellite dish installed, your existing system realigned, or a complete home entertainment setup, our technicians deliver professional results. We handle dish installation and alignment, LNB replacement, cable routing, TV mounting, and receiver programming. We work with all major satellite systems including Arabsat, Nilesat, and Hotbird. Our services also include IPTV setup and multi-room distribution systems for seamless entertainment throughout your home or business.",
-    features: [
-      "Satellite dish installation & alignment",
-      "TV wall mounting",
-      "Receiver programming & setup",
-      "LNB replacement",
-      "Cable routing & management",
-      "Multi-room distribution",
-      "IPTV setup & configuration",
-      "Signal troubleshooting & repair",
-    ],
-    faqs: [
-      {
-        question: "Which satellite channels are available in Dubai?",
-        answer:
-          "Dubai has access to a wide range of satellite channels through Arabsat, Nilesat, and Hotbird. We can set up your system to receive channels from multiple satellites.",
-      },
-      {
-        question: "Can you mount my TV on the wall?",
-        answer:
-          "Yes, we provide professional TV wall mounting services for all sizes and brands. We ensure secure mounting, clean cable management, and optimal viewing angles.",
-      },
-      {
-        question: "Do you offer IPTV installation?",
-        answer:
-          "Yes, we install and configure IPTV systems with high-quality streaming options. We ensure proper network setup for buffer-free viewing experience.",
       },
     ],
   },

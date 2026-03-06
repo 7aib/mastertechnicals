@@ -76,7 +76,7 @@ export function SiteFooter() {
               {services.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/services/${service.slug}`}
+                    href={`/${service.slug}`}
                     className="flex items-center gap-1 text-sm text-background/70 transition-colors hover:text-primary"
                   >
                     <ChevronRight className="h-3 w-3" />

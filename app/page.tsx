@@ -120,7 +120,7 @@ function ServicesSection() {
           {services.map((service) => (
             <Link
               key={service.slug}
-              href={`/services/${service.slug}`}
+              href={`/${service.slug}`}
               className="group"
             >
               <Card className="h-full transition-all hover:shadow-lg hover:border-primary/30 group-hover:-translate-y-1">

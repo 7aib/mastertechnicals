@@ -86,7 +86,7 @@ export function SiteHeader() {
                     className={cn(
                       "flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-secondary hover:text-primary",
                       pathname === link.href ||
-                        pathname.startsWith("/services/")
+                        services.some((s) => pathname === `/${s.slug}`)
                         ? "text-primary"
                         : "text-foreground"
                     )}
@@ -98,7 +98,7 @@ export function SiteHeader() {
                     {services.map((service) => (
                       <Link
                         key={service.slug}
-                        href={`/services/${service.slug}`}
+                        href={`/${service.slug}`}
                         className="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-foreground transition-colors hover:bg-secondary hover:text-primary"
                       >
                         <service.icon className="h-4 w-4 text-primary" />
@@ -171,7 +171,7 @@ export function SiteHeader() {
                       {services.map((service) => (
                         <Link
                           key={service.slug}
-                          href={`/services/${service.slug}`}
+                          href={`/${service.slug}`}
                           className="flex items-center gap-2 rounded-md py-2 text-sm text-muted-foreground transition-colors hover:text-primary"
                           onClick={() => setMobileOpen(false)}
                         >
