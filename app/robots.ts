@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://mastertechnicals.ae/sitemap.xml",
+    sitemap: "https://mastertechnicals.com/sitemap.xml",
   }
 }
