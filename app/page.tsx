@@ -38,12 +38,16 @@ function HeroSection() {
             Trusted Home Maintenance in Dubai
           </span>
           <h1 className="mb-6 text-4xl font-bold leading-tight text-balance md:text-5xl lg:text-6xl">
-            Handyman Services Dubai &ndash; Home Maintenance & Repair Experts
+            Professional Handyman Services Dubai
           </h1>
           <p className="mb-8 text-lg leading-relaxed text-background/70 md:text-xl">
-            Professional handyman services in Dubai. From plumbing and electrical to AC repair and CCTV installation,
-            Master Technicals delivers expert home maintenance across all
-            areas of Dubai. Licensed, insured, and same-day service.
+            Looking for <strong>reliable handyman services in Dubai</strong>? Our professional team provides fast and affordable home repair and installation services for apartments, villas, and offices across Dubai. From small fixes to complete installations, our experienced handymen ensure every job is completed safely and professionally.
+          </p>
+          <p className="mb-8 text-lg leading-relaxed text-background/70 md:text-xl">
+            We specialize in <strong>TV mounting, drilling, curtain installation, plumbing, electrical repairs, carpentry work, and furniture assembly</strong>. Our goal is to make home maintenance easy for Dubai residents by providing skilled technicians, quality materials, and on-time service.
+          </p>
+          <p className="mb-8 text-lg leading-relaxed text-background/70 md:text-xl">
+            Whether you need a quick repair or a full installation, our <strong>handyman Dubai experts</strong> are ready to help with efficient and affordable solutions.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Button
@@ -151,6 +155,187 @@ function ServicesSection() {
             </Link>
           </Button>
         </div>
+      </div>
+    </section>
+  )
+}
+
+function DrillingSection() {
+  return (
+    <section className="py-16 bg-background">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Handyman Drilling & Wall Mounting Services in Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Our handyman team provides professional <strong>drilling and wall mounting services in Dubai</strong> for homes and offices. We install shelves, mirrors, picture frames, curtain rods, wall décor, and other accessories securely on gypsum or concrete walls.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Using proper anchors and tools ensures strong support and clean finishing without damaging your walls.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function TVMountingSection() {
+  return (
+    <section className="py-16 bg-secondary">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          TV Mounting Services Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Need help installing your TV? Our <strong>TV mounting services in Dubai</strong> ensure safe and level installation on any wall type. We install fixed brackets, tilt brackets, and movable TV mounts.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Our technicians also provide <strong>cable management services</strong> to hide wires and keep your living space clean and organized.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function CurtainSection() {
+  return (
+    <section className="py-16 bg-background">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Curtain & Blinds Installation Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          We offer professional <strong>curtain installation services in Dubai</strong> for homes, apartments, and offices. Our team installs curtain rods, rails, blinds, and motorized curtain systems with accurate measurements and secure mounting.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Proper curtain installation improves both the appearance and functionality of your windows.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function FurnitureSection() {
+  return (
+    <section className="py-16 bg-secondary">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Furniture Assembly & Repair Services Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Our <strong>furniture assembly services in Dubai</strong> help you quickly set up beds, wardrobes, cabinets, desks, and office furniture. We also repair damaged furniture, fix loose joints, and restore wooden surfaces.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Professional assembly ensures furniture stability and long-lasting durability.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function PlumbingSection() {
+  return (
+    <section className="py-16 bg-background">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Plumbing Services Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          We provide reliable <strong>plumbing services in Dubai</strong> for small repairs and installations. Our plumbers handle leaking taps, pipe repairs, drain cleaning, fixture installation, and other common plumbing issues.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Fast and professional plumbing solutions help prevent water damage and keep your home running smoothly.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function ElectricalSection() {
+  return (
+    <section className="py-16 bg-secondary">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Electrical Services Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Our handyman electricians provide safe and efficient <strong>electrical services in Dubai</strong>, including light installation, switch replacement, socket repairs, and minor electrical troubleshooting.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          All electrical work is handled carefully to ensure safety and proper functionality.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function PaintingSection() {
+  return (
+    <section className="py-16 bg-background">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Painting Services Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Our <strong>painting services in Dubai</strong> include interior wall painting, touch-up work, and small renovation painting jobs. We use quality materials and proper preparation to deliver smooth and long-lasting results.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function WhyChooseSection() {
+  return (
+    <section className="py-16 bg-secondary">
+      <div className="mx-auto max-w-4xl px-4">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Why Choose Our Handyman Services in Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Dubai residents trust our services because we focus on quality, reliability, and customer satisfaction.
+        </p>
+        <ul className="space-y-2 text-lg text-muted-foreground">
+          <li className="flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+            Skilled and experienced handymen
+          </li>
+          <li className="flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+            Affordable pricing with clear quotes
+          </li>
+          <li className="flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+            Fast booking through phone or WhatsApp
+          </li>
+          <li className="flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+            Professional tools and materials
+          </li>
+          <li className="flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0" />
+            Clean and tidy work after completion
+          </li>
+        </ul>
+        <p className="text-lg text-muted-foreground leading-relaxed mt-6">
+          Our team is dedicated to delivering <strong>trusted handyman services Dubai residents can rely on</strong>.
+        </p>
+      </div>
+    </section>
+  )
+}
+
+function BookingSection() {
+  return (
+    <section className="py-16 bg-background">
+      <div className="mx-auto max-w-4xl px-4 text-center">
+        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
+          Book Affordable Handyman Services in Dubai
+        </h2>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          Booking a handyman is simple. Contact us with your job details and location, and we will provide a quick quote. Our technician will arrive on time with the necessary tools to complete the job efficiently.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed">
+          Get in touch today for <strong>professional handyman services in Dubai</strong> and enjoy reliable home repair solutions at affordable prices.
+        </p>
       </div>
     </section>
   )
@@ -405,7 +590,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Master Technicals",
-    image: "https://mastertechnicals.ae/images/hero-bg.jpg",
+    image: "https://mastertechnicals.com/images/hero-bg.jpg",
     description:
       "Professional handyman services in Dubai. Plumbing, electrical, carpentry, AC repair and home maintenance with same-day service. Call now.",
     address: {
@@ -419,7 +604,7 @@ export default function HomePage() {
       latitude: 25.1657,
       longitude: 55.3906,
     },
-    url: "https://mastertechnicals.ae",
+    url: "https://mastertechnicals.com",
     telephone: "+971556557200",
     email: "mastertechnicls@gmail.com",
     openingHoursSpecification: [
@@ -459,6 +644,15 @@ export default function HomePage() {
       <HeroSection />
       <StatsSection />
       <ServicesSection />
+      <DrillingSection />
+      <TVMountingSection />
+      <CurtainSection />
+      <FurnitureSection />
+      <PlumbingSection />
+      <ElectricalSection />
+      <PaintingSection />
+      <WhyChooseSection />
+      <BookingSection />
       <WhyChooseUsSection />
       <CTASection />
       <TestimonialsSection />

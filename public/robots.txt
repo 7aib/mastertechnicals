@@ -1,0 +1,8 @@
+# Robots.txt for mastertechnicals.com - SEO optimized
+# Allow all crawlers to access public content
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap for better crawling
+Sitemap: https://mastertechnicals.com/sitemap.xml

@@ -15,14 +15,14 @@ export function BreadcrumbNav({ items }: { items: BreadcrumbItem[] }) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://mastertechnicals.ae",
+        item: "https://mastertechnicals.com",
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 2,
         name: item.label,
         ...(item.href && {
-          item: `https://mastertechnicals.ae${item.href}`,
+          item: `https://mastertechnicals.com${item.href}`,
         }),
       })),
     ],
