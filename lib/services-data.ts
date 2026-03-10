@@ -12,6 +12,12 @@ import {
   Phone,
   Home,
   DoorOpen,
+  Hammer,
+  Paintbrush,
+  Layout,
+  Truck,
+  ShieldAlert,
+  Sun,
   type LucideIcon,
 } from "lucide-react"
 
@@ -85,14 +91,14 @@ export const services: ServiceData[] = [
     description:
       "Master Technicals provides comprehensive handyman services across Dubai. Our team of skilled professionals can handle everything from furniture assembly and wall mounting to painting, carpentry, and general home repairs. Whether you need a quick fix or a complete home makeover, our licensed handymen deliver quality workmanship every time. We serve all areas of Dubai including Downtown, Marina, JBR, Business Bay, International City, and more. Our handyman services are available on weekdays from 10 AM to 10 PM, with emergency services available 24/7. We use only premium materials and tools to ensure lasting results for every project we undertake. Our experienced team has completed thousands of successful projects across residential and commercial properties in Dubai.",
     features: [
-      "Furniture assembly & disassembly",
-      "Wall mounting (TVs, shelves, mirrors)",
-      "Painting & wall repair",
-      "Carpentry & woodwork",
-      "Door & lock installation",
-      "General home repairs",
-      "Picture hanging & decoration",
-      "Childproofing services",
+      "TV wall mounting & setup",
+      "Curtain & blinds installation",
+      "Sealing gaps with silicone",
+      "Curtain rod & rail fixing",
+      "Furniture assembly & repair",
+      "Wall mounting & drilling",
+      "General home maintenance",
+      "Emergency handyman services",
     ],
     faqs: [
       {
@@ -127,11 +133,11 @@ export const services: ServiceData[] = [
       "Master Technicals offers professional plumbing services throughout Dubai. Our licensed plumbers handle everything from minor leak repairs to complete bathroom renovations. We specialize in drain cleaning, pipe installation and repair, water heater connections, toilet installation, faucet replacement, and emergency plumbing repairs. Available 24/7 for emergencies, our team uses the latest equipment and techniques to diagnose and fix plumbing issues quickly and efficiently. We serve all major areas including Dubai Marina, Downtown Dubai, JBR, Business Bay, Palm Jumeirah, and International City. Every job comes with a satisfaction guarantee and transparent pricing with no hidden fees.",
     features: [
       "Leak detection & repair",
-      "Drain cleaning & unclogging",
+      "Leaky tap & shower head repair",
+      "Toilet & drain cleaning",
+      "Bathroom fixture installation",
       "Pipe installation & replacement",
-      "Bathroom & kitchen fitting",
-      "Toilet installation & repair",
-      "Faucet & fixture replacement",
+      "Kitchen fitting repairs",
       "Water line installation",
       "Emergency plumbing services",
     ],
@@ -167,12 +173,12 @@ export const services: ServiceData[] = [
     description:
       "Master Technicals provides licensed electrical services across Dubai. Our certified electricians handle all residential and commercial electrical needs, from simple socket installations to complete rewiring projects. We specialize in lighting installation, circuit breaker upgrades, electrical panel maintenance, outlet installation, ceiling fan mounting, and emergency electrical repairs. Safety is our top priority, and every job is completed to Dubai Municipality standards. Our electricians are available for scheduled appointments and emergency callouts 24/7. We serve all areas of Dubai and provide free on-site assessments for larger projects.",
     features: [
-      "Wiring & rewiring",
-      "Socket & switch installation",
-      "Lighting installation & repair",
-      "Circuit breaker services",
-      "Electrical panel upgrades",
-      "Ceiling fan installation",
+      "Light fixture installation",
+      "Ceiling fan mounting",
+      "Switch & socket installation",
+      "Minor electrical troubleshooting",
+      "Wiring & rewiring services",
+      "Circuit breaker replacement",
       "Outdoor & landscape lighting",
       "Emergency electrical repair",
     ],
@@ -601,6 +607,207 @@ export const services: ServiceData[] = [
         question: "Do modern intercoms work with smartphones?",
         answer:
           "Yes, many modern IP-based intercom systems support smartphone connectivity, allowing you to answer the door, see visitors, and grant access remotely from anywhere.",
+      },
+    ],
+  },
+  {
+    slug: "carpentry-furniture-dubai",
+    title: "Carpentry & Furniture Services in Dubai",
+    shortTitle: "Carpentry",
+    icon: Hammer,
+    metaTitle: "Carpentry & Furniture Repair Dubai | IKEA Furniture Assembly",
+    metaDescription:
+      "Professional carpentry and furniture assembly in Dubai. IKEA furniture assembly, door repair, cabinet mounting, and furniture fixing. Call +971556557200.",
+    heroHeadline: "Expert Carpentry & Furniture Assembly Dubai",
+    heroSubheadline:
+      "From IKEA furniture assembly to professional door and cabinet repairs, our skilled carpenters deliver quality work across Dubai.",
+    description:
+      "Master Technicals provides expert carpentry and furniture assembly services in Dubai. We specialize in assembling flat-pack furniture (IKEA, etc.), repairing doors, fixing loose cabinets, and restoring wooden furniture. Our team ensures your furniture is sturdy, level, and properly installed for years of use.",
+    features: [
+      "IKEA furniture assembly",
+      "Door repair & installation",
+      "Cabinet mounting & fixing",
+      "Furniture fixing & stabilization",
+      "Custom woodwork & shelving",
+      "Handle & hinge replacement",
+      "Wooden floor repair",
+      "Wardrobe assembly",
+    ],
+    faqs: [
+      {
+        question: "Do you assemble IKEA furniture in Dubai?",
+        answer:
+          "Yes, we are experts at assembling all types of IKEA furniture, from wardrobes and beds to complex kitchen cabinets and office setups.",
+      },
+      {
+        question: "Can you fix sagging or sticking doors?",
+        answer:
+          "Yes, we specialize in repairing misaligned doors, fixing hinges, and ensuring all types of wooden and aluminum doors open and close perfectly.",
+      },
+    ],
+  },
+  {
+    slug: "painting-decorating-dubai",
+    title: "Painting & Decorating Services in Dubai",
+    shortTitle: "Painting",
+    icon: Paintbrush,
+    metaTitle: "Painting & Decorating Dubai | Professional Interior Painters",
+    metaDescription:
+      "Professional interior painting and decorating in Dubai. Wall touch-ups, picture hanging, shelf installation, and complete home painting. Call +971556557200.",
+    heroHeadline: "Interior Painting & Decorating Dubai",
+    heroSubheadline:
+      "Transform your space with professional painting, wall touch-ups, and expert decorating services across Dubai.",
+    description:
+      "Add a fresh look to your home with Master Technicals' painting and decorating services. We handle everything from complete interior painting to minor touch-ups, hanging pictures, and fixing shelves. Our team ensures clean edges, smooth finishes, and a tidy workspace upon completion.",
+    features: [
+      "Interior wall painting",
+      "Wall touch-ups & corrections",
+      "Picture & mirror hanging",
+      "Shelf & frame installation",
+      "Wallpaper removal & application",
+      "Stain removal & surface prep",
+      "Ceiling painting",
+      "Decorative wall finishes",
+    ],
+    faqs: [
+      {
+        question: "Do you handle small painting touch-ups?",
+        answer:
+          "Yes, we handle jobs of all sizes, from single-wall touch-ups to complete villa painting projects anywhere in Dubai.",
+      },
+      {
+        question: "Is picture hanging included in your services?",
+        answer:
+          "Absolutely. We provide professional picture and mirror hanging services, ensuring they are perfectly level and securely mounted.",
+      },
+    ],
+  },
+  {
+    slug: "walls-floors-dubai",
+    title: "Walls & Floors Maintenance in Dubai",
+    shortTitle: "Walls & Floors",
+    icon: Layout,
+    metaTitle: "Walls & Floors Dubai | Drywall Repair & Basic Tiling",
+    metaDescription:
+      "Expert wall and floor maintenance in Dubai. Drywall repair, hole filling, basic tiling, and floor fixes. Call +971556557200 for a free quote.",
+    heroHeadline: "Walls & Floors Maintenance Dubai",
+    heroSubheadline:
+      "Professional drywall repair, tile fixing, and wall maintenance services for homes and offices across Dubai.",
+    description:
+      "Keep your walls and floors in perfect condition with Master Technicals. We specialize in drywall repair, filling drill holes, and basic tiling repairs. Whether you are moving out and need to restore walls or have damaged floor tiles, our team deliver seamless results.",
+    features: [
+      "Drywall & gypsum repair",
+      "Filling drill holes & cracks",
+      "Basic tiling & grout repair",
+      "Wall sanding & preparation",
+      "Skirting board fixing",
+      "Floor tile replacement",
+      "Waterproof sealing",
+      "Wall finishing services",
+    ],
+    faqs: [
+      {
+        question: "Can you fill drill holes before I move out?",
+        answer:
+          "Yes, we provide move-out wall restoration services, including filling drill holes and sanding for a smooth finish to help you get your security deposit back.",
+      },
+      {
+        question: "Do you provide tiling services for bathrooms?",
+        answer:
+          "We handle basic tiling repairs, grout replacement, and small tile installations to keep your bathroom floors and walls looking great.",
+      },
+    ],
+  },
+  {
+    slug: "moving-assistance-dubai",
+    title: "Moving Assistance Services in Dubai",
+    shortTitle: "Moving Help",
+    icon: Truck,
+    metaTitle: "Moving Assistance Dubai | Furniture Assembly & Fixture Removal",
+    metaDescription:
+      "Fast moving assistance in Dubai. Furniture disassembly/assembly and fixture removal for move-in and move-out. Call +971556557200.",
+    heroHeadline: "Hassle-Free Moving Assistance Dubai",
+    heroSubheadline:
+      "Expert help with furniture disassembly, fixture removal, and reassembly during your move across Dubai.",
+    description:
+      "Make your move easier with Master Technicals' moving assistance. We help disassemble your furniture at your old place and reassemble it at your new home. We also handle the removal and reinstallation of curtains, TVs, and light fixtures during move-in or move-out.",
+    features: [
+      "Furniture disassembly",
+      "Furniture reassembly",
+      "Fixture removal services",
+      "Curtain & blind reinstallation",
+      "TV unmounting & remounting",
+      "Shelving removal & fixing",
+      "Move-out wall restoration",
+      "Loading & unloading help",
+    ],
+    faqs: [
+      {
+        question: "Can you help me assemble furniture at my new house?",
+        answer:
+          "Yes, we provide professional furniture assembly services for all brands, ensuring your new home is ready for you to move in.",
+      },
+    ],
+  },
+  {
+    slug: "safety-smart-home-dubai",
+    title: "Safety & Smart Home Gadget Installation Dubai",
+    shortTitle: "Safety & Smart Home",
+    icon: ShieldAlert,
+    metaTitle: "Smart Home Dubai | Child Safety & Smart Gadget Installation",
+    metaDescription:
+      "Professional safety and smart home installation in Dubai. Child-safety latches, smoke detectors, and smart gadgets. Call +971556557200.",
+    heroHeadline: "Safety & Smart Home Gadgets Dubai",
+    heroSubheadline:
+      "Protect your home and upgrade your lifestyle with professional installation of safety devices and smart home gadgets.",
+    description:
+      "Upgrade your home's safety and technology with Master Technicals. We install child-safety latches, smoke detectors, smart doorbells, smart locks, and other gadgets to make your home more secure and convenient.",
+    features: [
+      "Child-safety latch installation",
+      "Smoke & heat detector fixing",
+      "Smart doorbell (Ring/Nest) setup",
+      "Smart lock installation",
+      "Home automation gadgets",
+      "Baby proofing services",
+      "Security sensor mounting",
+      "Voice assistant integration",
+    ],
+    faqs: [
+      {
+        question: "Do you install smart doorbells in Dubai?",
+        answer:
+          "Yes, we install and configure all types of smart doorbells, including Ring, Nest, and Arlo, for both apartments and villas.",
+      },
+    ],
+  },
+  {
+    slug: "seasonal-upgrades-dubai",
+    title: "Seasonal Upgrades & Outdoor Maintenance Dubai",
+    shortTitle: "Seasonal Upgrades",
+    icon: Sun,
+    metaTitle: "Seasonal Upgrades Dubai | Patio Furniture & Outdoor Repair",
+    metaDescription:
+      "Professional seasonal upgrades and outdoor maintenance in Dubai. Patio furniture fixing, balcony cleaning, and outdoor repairs. Call +971556557200.",
+    heroHeadline: "Seasonal Upgrades & Outdoor Living Dubai",
+    heroSubheadline:
+      "Enhance your outdoor space with patio furniture repairs, balcony cleaning, and seasonal maintenance across Dubai.",
+    description:
+      "Get your outdoor space ready for every season with Master Technicals. We repair outdoor patio items, fix balcony furniture, and provide thorough cleaning for your terrace and outdoor areas. Our team helps you maximize your outdoor living experience in Dubai.",
+    features: [
+      "Patio furniture repair",
+      "Balcony furniture fixing",
+      "Outdoor area cleaning",
+      "Gazebo & pergola maintenance",
+      "Decking repair & cleaning",
+      "Outdoor lighting setup",
+      "Planter box installation",
+      "Seasonal space preparation",
+    ],
+    faqs: [
+      {
+        question: "Can you fix my broken outdoor furniture?",
+        answer:
+          "Yes, we repair all types of outdoor and balcony furniture, ensuring it's safe and ready for use during the outdoor season in Dubai.",
       },
     ],
   },

@@ -10,6 +10,17 @@ import {
   Star,
   ArrowRight,
   CheckCircle2,
+  Hammer,
+  Paintbrush,
+  Layout,
+  Truck,
+  ShieldAlert,
+  Sun,
+  Monitor,
+  Scissors,
+  Zap,
+  Droplets,
+  Home,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -160,124 +171,173 @@ function ServicesSection() {
   )
 }
 
-function DrillingSection() {
+function CoreHandymanServices() {
+  const coreServices = [
+    {
+      title: "Electrical Services",
+      icon: Zap,
+      description: "Installing light fixtures, ceiling fans, switches, sockets, and minor troubleshooting.",
+      link: "/electrician-services-dubai"
+    },
+    {
+      title: "Plumbing Services",
+      icon: Droplets,
+      description: "Repairing leaky taps, shower heads, toilets, drains, and installing bathroom fixtures.",
+      link: "/plumbing-services-dubai"
+    },
+    {
+      title: "Carpentry & Furniture",
+      icon: Hammer,
+      description: "Assembling furniture (IKEA, etc.), repairing doors, cabinets, and furniture fixing.",
+      link: "/carpentry-furniture-dubai"
+    },
+    {
+      title: "Painting & Decorating",
+      icon: Paintbrush,
+      description: "Interior painting, touch-ups, hanging pictures, and fixing shelves.",
+      link: "/painting-decorating-dubai"
+    },
+    {
+      title: "Home Improvement & Maintenance",
+      icon: Home,
+      description: "TV wall mounting, installing curtains/blinds, sealing gaps with silicone, and fixing curtain rods.",
+      link: "/handyman-services-dubai"
+    },
+    {
+      title: "Walls & Floors",
+      icon: Layout,
+      description: "Drywall repair, filling drill holes, and basic tiling repairs.",
+      link: "/walls-floors-dubai"
+    }
+  ]
+
   return (
-    <section className="py-16 bg-background">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Handyman Drilling & Wall Mounting Services in Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our handyman team provides professional <strong>drilling and wall mounting services in Dubai</strong> for homes and offices. We install shelves, mirrors, picture frames, curtain rods, wall décor, and other accessories securely on gypsum or concrete walls.
-        </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          Using proper anchors and tools ensures strong support and clean finishing without damaging your walls.
-        </p>
+    <section className="py-20 bg-background">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto mb-12 max-w-2xl text-center">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
+            Expert Solutions
+          </span>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl text-balance">
+            Core Handyman Services List
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Professional repair and maintenance solutions for your home or office in Dubai.
+          </p>
+        </div>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {coreServices.map((service) => (
+            <Card key={service.title} className="group overflow-hidden transition-all hover:shadow-lg border-primary/5">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-all group-hover:scale-110 group-hover:bg-primary group-hover:text-primary-foreground">
+                  <service.icon className="h-7 w-7" />
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-foreground">
+                  {service.title}
+                </h3>
+                <p className="mb-6 text-muted-foreground leading-relaxed">
+                  {service.description}
+                </p>
+                <Link
+                  href={service.link}
+                  className="inline-flex items-center text-sm font-bold text-primary hover:gap-2 transition-all"
+                >
+                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>
   )
 }
 
-function TVMountingSection() {
+function SpecializedDubaiServices() {
+  const specializedServices = [
+    {
+      title: "Moving Assistance",
+      icon: Truck,
+      description: "Disassembling/assembling furniture and removing fixtures during move-in or move-out.",
+      link: "/moving-assistance-dubai"
+    },
+    {
+      title: "Safety & Smart Home",
+      icon: ShieldAlert,
+      description: "Installing child-safety latches, smoke detectors, and smart home gadgets.",
+      link: "/safety-smart-home-dubai"
+    },
+    {
+      title: "Seasonal Upgrades",
+      icon: Sun,
+      description: "Fixing outdoor patio items, balcony furniture repairs, and cleaning.",
+      link: "/seasonal-upgrades-dubai"
+    }
+  ]
+
   return (
-    <section className="py-16 bg-secondary">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          TV Mounting Services Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Need help installing your TV? Our <strong>TV mounting services in Dubai</strong> ensure safe and level installation on any wall type. We install fixed brackets, tilt brackets, and movable TV mounts.
-        </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          Our technicians also provide <strong>cable management services</strong> to hide wires and keep your living space clean and organized.
-        </p>
+    <section className="py-20 bg-secondary">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto mb-12 max-w-2xl text-center">
+          <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
+            Dubai Specialists
+          </span>
+          <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl text-balance">
+            Specialized Dubai Services
+          </h2>
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            Curated maintenance services specifically designed for Dubai's unique property needs.
+          </p>
+        </div>
+        <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
+          {specializedServices.map((service) => (
+            <Card key={service.title} className="group overflow-hidden transition-all hover:shadow-xl border-none shadow-sm">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary transition-all group-hover:bg-primary group-hover:text-primary-foreground">
+                  <service.icon className="h-7 w-7" />
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-foreground">
+                  {service.title}
+                </h3>
+                <p className="mb-6 text-muted-foreground leading-relaxed">
+                  {service.description}
+                </p>
+                <Link
+                  href={service.link}
+                  className="inline-flex items-center text-sm font-bold text-primary hover:gap-2 transition-all"
+                >
+                  View Details <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>
   )
 }
 
-function CurtainSection() {
+function JobberSection() {
   return (
-    <section className="py-16 bg-background">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Curtain & Blinds Installation Dubai
+    <section className="py-16 bg-foreground text-background">
+      <div className="mx-auto max-w-5xl px-4 text-center">
+        <div className="mb-8 inline-flex h-20 w-20 items-center justify-center rounded-full bg-primary/20">
+          <Monitor className="h-10 w-10 text-primary" />
+        </div>
+        <h2 className="mb-6 text-4xl font-bold text-balance">
+          Manage Your Home Maintenance with Jobber
         </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          We offer professional <strong>curtain installation services in Dubai</strong> for homes, apartments, and offices. Our team installs curtain rods, rails, blinds, and motorized curtain systems with accurate measurements and secure mounting.
+        <p className="mb-10 text-xl text-background/70 leading-relaxed max-w-3xl mx-auto">
+          We use <strong>Jobber</strong> to provide you with professional quotes, easy scheduling, and seamless invoicing. Experience the most modern way to manage your property maintenance in Dubai.
         </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          Proper curtain installation improves both the appearance and functionality of your windows.
-        </p>
-      </div>
-    </section>
-  )
-}
-
-function FurnitureSection() {
-  return (
-    <section className="py-16 bg-secondary">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Furniture Assembly & Repair Services Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our <strong>furniture assembly services in Dubai</strong> help you quickly set up beds, wardrobes, cabinets, desks, and office furniture. We also repair damaged furniture, fix loose joints, and restore wooden surfaces.
-        </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          Professional assembly ensures furniture stability and long-lasting durability.
-        </p>
-      </div>
-    </section>
-  )
-}
-
-function PlumbingSection() {
-  return (
-    <section className="py-16 bg-background">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Plumbing Services Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          We provide reliable <strong>plumbing services in Dubai</strong> for small repairs and installations. Our plumbers handle leaking taps, pipe repairs, drain cleaning, fixture installation, and other common plumbing issues.
-        </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          Fast and professional plumbing solutions help prevent water damage and keep your home running smoothly.
-        </p>
-      </div>
-    </section>
-  )
-}
-
-function ElectricalSection() {
-  return (
-    <section className="py-16 bg-secondary">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Electrical Services Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our handyman electricians provide safe and efficient <strong>electrical services in Dubai</strong>, including light installation, switch replacement, socket repairs, and minor electrical troubleshooting.
-        </p>
-        <p className="text-lg text-muted-foreground leading-relaxed">
-          All electrical work is handled carefully to ensure safety and proper functionality.
-        </p>
-      </div>
-    </section>
-  )
-}
-
-function PaintingSection() {
-  return (
-    <section className="py-16 bg-background">
-      <div className="mx-auto max-w-4xl px-4">
-        <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl text-balance">
-          Painting Services Dubai
-        </h2>
-        <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-          Our <strong>painting services in Dubai</strong> include interior wall painting, touch-up work, and small renovation painting jobs. We use quality materials and proper preparation to deliver smooth and long-lasting results.
-        </p>
+        <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
+          <Button asChild size="lg" className="h-14 px-8 text-lg font-bold shadow-xl shadow-primary/20">
+            <a href="tel:+971556557200">Request Quote via Jobber</a>
+          </Button>
+          <Button asChild variant="outline" size="lg" className="h-14 px-8 text-lg font-bold border-background/20 text-black hover:bg-background/10">
+            <a href="https://wa.me/971556557200">Chat for Booking</a>
+          </Button>
+        </div>
       </div>
     </section>
   )
@@ -643,14 +703,10 @@ export default function HomePage() {
       />
       <HeroSection />
       <StatsSection />
+      <CoreHandymanServices />
+      <SpecializedDubaiServices />
+      <JobberSection />
       <ServicesSection />
-      <DrillingSection />
-      <TVMountingSection />
-      <CurtainSection />
-      <FurnitureSection />
-      <PlumbingSection />
-      <ElectricalSection />
-      <PaintingSection />
       <WhyChooseSection />
       <BookingSection />
       <WhyChooseUsSection />
