@@ -62,8 +62,8 @@ export function SiteHeader() {
             <Image
               src="/logo.png"
               alt="Master Technicals Logo"
-              width={150}
-              height={40}
+              width={48}
+              height={48}
               className="rounded-lg object-contain"
             />
             <div className="flex flex-col leading-tight">

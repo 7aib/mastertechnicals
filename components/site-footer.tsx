@@ -21,8 +21,8 @@ export function SiteFooter() {
               <Image
                 src="/logo.png"
                 alt="Master Technicals Logo"
-                width={120}
-                height={35}
+                width={48}
+                height={48}
                 className="rounded-lg object-contain"
               />
               <div className="flex flex-col leading-tight">
