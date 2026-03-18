@@ -18,6 +18,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "how-to-remove-airlock-water-pump-dubai",
+    title: "Is Your Water Pump Sputtering? Here is How to Fix an Airlock Like a Pro",
+    excerpt:
+      "If your pump is running but no water is coming out, you likely have an airlock. Here are the simplest ways to bleed your pump and restore your water pressure instantly.",
+    date: "2026-03-18",
+    readTime: "4 min read",
+    category: "Plumbing",
+  },
+  {
     slug: "ac-maintenance-tips-dubai-summer",
     title: "Essential AC Maintenance Tips for Dubai Summers",
     excerpt:
@@ -100,11 +109,11 @@ export default function BlogPage() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => (
-              <Card
-                key={post.slug}
-                className="group h-full transition-all hover:shadow-lg hover:border-primary/30"
-              >
-                <CardContent className="flex h-full flex-col p-6">
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="block h-full">
+                <Card
+                  className="group h-full transition-all hover:shadow-lg hover:border-primary/30"
+                >
+                  <CardContent className="flex h-full flex-col p-6">
                   <div className="mb-3 flex items-center gap-3">
                     <span className="rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
                       {post.category}
@@ -137,7 +146,8 @@ export default function BlogPage() {
                     </span>
                   </div>
                 </CardContent>
-              </Card>
+                </Card>
+              </Link>
             ))}
           </div>
           <p className="mt-12 text-center text-muted-foreground">
